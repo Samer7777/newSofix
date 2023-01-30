@@ -1228,5 +1228,8 @@ text-align: center;
   #loginPopUp .modal-content{
     width: 100%;
   }
+  body{
+    overflow-x: hidden !important;
+  }
 }
 /******** responsive menu Style *******/
