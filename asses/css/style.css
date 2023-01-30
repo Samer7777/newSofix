@@ -936,6 +936,10 @@ text-align: center;
 }
 /******** visit Style *******/
 
+.comingSoon{
+  font-size: 40px;
+  color: var(--mainColor);
+}
 
 /******** loading page Style *******/
 /******************* loader  ****************************/
