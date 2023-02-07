@@ -949,7 +949,7 @@ body {
   padding: 0 1px;
 }
 .newsItem .image img {
-  height: 220px;
+  height: auto;
   object-fit: fill;
   width: 100%;
   border-top-right-radius: 12px;
@@ -1029,7 +1029,25 @@ body {
 .burger {
   display: none;
 }
-
+.news button.close {
+  width: max-content;
+  right: 10px;
+  left: auto;
+  position: absolute;
+  font-size: 30px;
+  opacity: 1;
+  z-index: 2;
+}
+.news .modal-body {
+  padding: 40px;
+  text-align: center;
+}
+.news .modal.show .modal-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /******** responsive menu Style *******/
 @media (max-width: 900px) {
   .siteMenu li:nth-of-type(7),
